@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Run",
+            "program": "${workspaceFolder}/server.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "env": {
+                "PORT": "4444",
+                "IMG_API": "https://source.unsplash.com/random/640x480"
+            }
+        }
+    ]
+}
